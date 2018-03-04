@@ -1,0 +1,84 @@
+body {
+	background: #000609;
+	color: white;
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+#wheel-base, #circle, #bar {
+    fill: white;
+    stroke: white;
+    stroke-width: 5;
+    stroke-linecap: round;
+}
+
+.caption {
+    fill: #666666;
+}
+.caption:hover, #circle:hover {
+    fill:white;
+    font-size:105%;
+    stroke-width: 1%;
+}
+
+h2 {
+    font-family: "Lucida Grande", Tahoma;
+ font-size: 20px;
+ font-variant: normal;
+ text-align: center!important;
+ letter-spacing: 0.1em;
+ text-align: center;
+}
+
+p {
+    color: antiquewhite;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.one-quarter {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sc-artwork-list,
+.sc-info,
+.sc-trackslist,
+.sc-info-toggle,
+.sc-scrubber { display: none !important; }
+
+
+.track-list {
+    overflow:hidden;
+    -moz-box-shadow: 1px 1px 4px #333;
+    -webkit-box-shadow: 1px 1px 4px #333;
+    width:50%;
+}
+
+.track-entry{
+    -moz-box-shadow: 1px 1px 4px #333;
+    -webkit-box-shadow: 1px 1px 4px #333;
+    height: 50%;
+}
+
+.track-title {
+    float: left;
+    text-align: center;
+    margin: 15px;
+    color: white;
+    width: 70%;
+}
+
+.track-player {
+    overflow: hidden;
+    padding-left: 5%;
+    width: 10%;
+    float:right;
+
+}

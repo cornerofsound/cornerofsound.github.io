@@ -14,10 +14,27 @@ body {
 .caption {
     fill: #666666;
 }
+
+#circle:hover {
+    filter:url(#blur-effect-1)
+}
 .caption:hover, #circle:hover {
-    fill:white;
+    /*fill:white;
     font-size:105%;
-    stroke-width: 1%;
+    stroke-width: 1%;*/
+    filter:url(#blur-effect-1)
+    -webkit-fill:10px;
+    -webkit-stroke-width: 5.3px;
+   text-shadow: 1px 0px 20px white;
+
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+
+   transition: width 0.3s;
+
+   -moz-transition: width 0.3s; /* Firefox 4 */
+
+   -o-transition: width 0.3s; /* Opera */
+
 }
 
 h2 {
@@ -80,5 +97,9 @@ p {
     padding-left: 5%;
     width: 10%;
     float:right;
-
 }
+
+.text-glow:hover, .text-glow:focus, .text-glow:active {
+
+  
+   }

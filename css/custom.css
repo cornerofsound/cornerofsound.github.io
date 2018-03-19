@@ -12,24 +12,25 @@ body {
 }
 
 .caption {
-    fill: #666666;
+    fill: white;
 }
 
 #circle:hover {
     filter:url(#blur-effect-1)
 }
-.caption:hover, #circle:hover {
-    /*fill:white;
-    font-size:105%;
-    stroke-width: 1%;*/
-    filter:url(#blur-effect-1)
-    -webkit-fill:10px;
-    -webkit-stroke-width: 5.3px;
-   text-shadow: 1px 0px 20px white;
+.caption:hover {
+    transition: width 10s;
+    fill: gray;
+    /*font-size:105%;*/
+    stroke-width: 1%;
+    /*filter: url(#blur-effect-1)
+    -webkit-fill:100px;
+    -webkit-stroke-width: 5px;*/
+   /*text-shadow: 0.1px 0px 2px gray;*/
 
-   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   -webkit-transition: width 5s; /*Safari & Chrome*/
 
-   transition: width 0.3s;
+   transition: width 10s;
 
    -moz-transition: width 0.3s; /* Firefox 4 */
 
@@ -59,47 +60,7 @@ p {
 .one-quarter {
     margin: 0;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.sc-artwork-list,
-.sc-info,
-.sc-trackslist,
-.sc-info-toggle,
-.sc-scrubber { display: none !important; }
-
-
-.track-list {
-    overflow:hidden;
-    -moz-box-shadow: 1px 1px 4px #333;
-    -webkit-box-shadow: 1px 1px 4px #333;
-    width:50%;
-}
-
-.track-entry{
-    -moz-box-shadow: 1px 1px 4px #333;
-    -webkit-box-shadow: 1px 1px 4px #333;
-    height: 50%;
-}
-
-.track-title {
-    float: left;
-    text-align: center;
-    margin: 15px;
-    color: white;
-    width: 70%;
-}
-
-.track-player {
-    overflow: hidden;
-    padding-left: 5%;
-    width: 10%;
-    float:right;
-}
-
-.text-glow:hover, .text-glow:focus, .text-glow:active {
-
-  
-   }

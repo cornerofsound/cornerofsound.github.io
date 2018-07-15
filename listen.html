@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head profile="http://cornerofsound.com/profile">
-      <link rel="icon" 
-      type="img/png" 
-      href="/img/favicon.png" />
+<head profile="http://cornerofsound.com/profile">
+    <link rel="icon"
+          type="img/png"
+          href="/img/favicon.png" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Corner of Sound</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/custom.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>     
+    <title>Corner of Sound</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/listen.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<center>
-      <iframe width="40%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/140637113&color=%23111111&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
-<svg width="80%" height="80%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+    
+<div class="row-padding"> </div>
+<div class="row">
+    <div class="col-2 col-s-1">
+      <div class="placeholder-text"> side-audio1 </div>
+      </div>
+    <div class="col-6 col-s-6">
+        <div class="audio-container">
+        <div class="audio-title">Musou</div>
+                <audio controls controlsList="nodownload">
+                  <source src="music/musou.mp3"/>
+                  Your browser doesn't support HTML5 audio.
+                </audio>
+         <div class="audio-title">it's been raining for a while</div>
+                <audio controls controlsList="nodownload">
+                  <source src="music/raining-for-while.mp3"/>
+                  Your browser does not support the audio tag.
+            </audio>
+        <div class="audio-title">sometimes it's just simple things</div>
+                <audio controls controlsList="nodownload">
+                  <source src="music/sometimes-simple-things.mp3"/>
+                  Your browser does not support the audio tag.
+                </audio>
+        <div class="audio-title">piece4</div>
+                <audio controls controlsList="nodownload">
+                  <source src="music/sometimes-simple-things.mp3"/>
+                  Your browser does not support the audio tag.
+                </audio>
+        <div class="audio-title">piece5</div>
+                <audio controls controlsList="nodownload">
+                  <source src="music/sometimes-simple-things.mp3"/>
+                  Your browser does not support the audio tag.
+                </audio>
+    </div>
+    </div>
+    <div class="col-3 col-s-5">
+      <div class="placeholder-text"> side-audio1 </div>
+      </div>
+</div>
+    <div class="row-padding"> </div>
+    
+<div class="row">
+
+    <div class="col-2">
+      <div class="placeholder-text"> side-audio1 </div>
+      </div>
+
+    <div class="col-8 col-s-12">
+        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="45 150 780 200" preserveAspectRatio="xMidYMid meet">
     <g id="wheel">
         <g id="wheel-base">
             <a xlink:href="index.html">
             <path id="circle"
                   d="M 300 300
                     A 100 100 0 0 1 500 300"  />
-                <filter id="blur-effect-1">
+                    <filter id="blur-effect-1">
                         <feGaussianBlur stdDeviation="1.5"/>
                     </filter>
-            </a>
+                </a>
             <path id="bar" 
                   d="M 50 300
-                  H 100 750"
+                  H 50 820"
+                  />
+            <path id="listen" 
+                  d="M 80 190
+                  L 310 260" /* L 310 260 */
                   />
         </g>
-        
-    </g>
-    </svg>
-      </center>
-    </body>
+        <g id="wheel-text">
+            <a xlink:href="contact.html">
+                <text x="50" y="287" class="caption">Contact</text>
+            </a>
+            <a xlink:href="listen.html">
+            <text x="85" y="185"transform="translate(68,-20)rotate(19)" class="caption">Listen</text>
+            </a>
+            <text x="550" y="287" class="caption">my little corner of sound</text>
+            </g>
+        </g>
+      </svg>
+    </div>
+
+    </div>
+    
+
+</body>
 </html>
     

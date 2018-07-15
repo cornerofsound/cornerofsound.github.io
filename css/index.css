@@ -92,6 +92,11 @@ Columns
         padding: 0px;
     }
 
+@media only screen and (max-width: 600px) {
+    .col-2 .placeholder-text{
+        padding-bottom: 25%;
+    }
+}
 @media only screen and (min-width: 700px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -161,11 +166,11 @@ Main nav wheel
 .caption {
     fill: #D9D9D9;;
     font-size: 25px;
+    padding: 14px 16px;
 }
 
 .caption:hover {
     transition: width 10s;
-    fill: #FFFFFF;
     stroke-width: 1%;
    -webkit-transition: width 5s; /*Safari & Chrome*/
    transition: width 10s;

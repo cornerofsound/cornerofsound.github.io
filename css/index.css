@@ -21,23 +21,60 @@ p {
 }
 
 .header h2{
-    font-size: 50px;
+    font-size: 9vw;
     letter-spacing: 0em;
 }
 
 .about {
-    font-size: 30px;
+    font-size: 4vw;
     text-align: center!important;
 }
 
+@media only screen and (min-width: 550px) {
+    /* For desktop: */
+    .header h2{
+    font-size: 50px;
+    letter-spacing: 0em;
+    }
+    .about {
+        font-size: 20px;
+    }
+}
+
+/*
 .about:before {
-    content: "   ";
+    content: " ";
     display: block;
     border-bottom: 4px solid white;
     margin-bottom: 1%;
     margin-right: 25%;
     margin-left: 25%;
     border-radius: 25px;
+}
+*/
+
+/***
+Contact Page
+***/
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #1e1e1e;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+    padding-bottom: 1%;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
 }
 /***
 Columns
@@ -50,6 +87,10 @@ Columns
     padding: 15px;
     overflow-x: hidden;
 }
+
+.col-no-padding{
+        padding: 0px;
+    }
 
 @media only screen and (min-width: 700px) {
     /* For tablets: */
@@ -80,6 +121,8 @@ Columns
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    
+    /* also changed audio-title font size in listen.css*/
 }
 
 /* Clear floats after the columns */

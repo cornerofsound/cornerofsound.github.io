@@ -68,7 +68,7 @@ a {
     align-content:center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background: #1e1e1e;
-  max-width: 150px;*/
+  /*max-width: 170px;*/
   text-align: center;
   font-family: arial;
   padding:20%;
@@ -95,9 +95,12 @@ Columns
     }
 
 @media only screen and (max-width: 700px) {
+
     .about {
-        
+        margin-left: 20%;
+        margin-right:20%;
     }
+
 }
 
 @media only screen and (min-width: 700px) {

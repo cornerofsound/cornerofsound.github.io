@@ -1,0 +1,29 @@
+----------
+7/14
+
+Progress:
+- Placeholder columns to make spacing correct on index and listen
+	- todo: find a better way than having black text on black background. 
+		this works for now though
+- Resizing around tablet / half of my computer screen size
+	- this means main nav wheel is still legible on small screens. still need to test
+		on a phone though
+- Audio box is working mostly
+	- tried to get custom scroll bar, but need to look up how to only apply it to a 		div and not to every scroll bar on the page
+	- Ben isn't going to like the default html5 audio controls box, but I don't see an 		easy way to customize, so will do later
+		- TODO: custom audio controls
+- Contact page has a simple about-card from w3 schools, and Ben's senior recital photo. I think it's nice to have a photo, provides a bit of personal touch but I do see that it breaks with the theme of the website. I'll talk to him more about it when we talk about the website overall
+- Spent a bunch more time trying to fix the edges of "my little corner of sound" being cut off on small screens. Hopefully successful by removing padding on the column box when it's in the small screen layout
+- Next up: blog, assuming everything else is still looking decently okay
+
+- FIXED: Also, noticed after pushing that the main wheel scoots downwards and to the right as you go from index ->listen -> contact. Down makes sense, but to the right isn't good.
+
+-Listen and Contact buttons are way too small on mobile. Legible but small and definitely too precise for the clicking area
+
+- Wait why does the index page still look off - nav wheel is shifted to the right. Maybe I forgot to fix something that was fixed elsewhere.
+
+- should remove the space between audio container and nav wheel on mobile - it's unnecessary and too large, could be used to make it easier to scroll on the music
+
+- maybe move index nav wheel down to make it easier for phone hands. Could have "corner of sound" written where it is now. 
+
+
